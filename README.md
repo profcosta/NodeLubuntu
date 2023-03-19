@@ -79,6 +79,16 @@ Entre no terminal, digite o código abaixo:
 code .
 ```
 
+## Ajuste no package.json
+No arquivo package.json será necessário realizar uma alteração de código na linha:
+``` 
+"web": "expo start --web"
+```
+Mude para a linha
+```
+"web": "NODE_OPTIONS=--openssl-legacy-provider expo start --web"
+```
+
 # Sites interessantes
 
 [Expo](https://expo.dev/)
