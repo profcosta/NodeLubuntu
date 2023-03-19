@@ -23,6 +23,17 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 ```
 Para colar no terminal, utilize ctrl+shift+v
 
+
+## Configurando as variaveis de ambiente
+Entre no terminal, digite ou cole o código abaixo:
+```
+export NVM_DIR="$HOME/.nvm" [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
+```
+Para colar no terminal, utilize ctrl+shift+v
+
+
+
 ## instalando o node
 Entre no terminal, digite o código abaixo:
 ```
@@ -36,5 +47,7 @@ Para colar no terminal, utilize ctrl+shift+v
 ## Sites interessantes
 
 [Expo](https://expo.dev/)
+
 [Expo Docs](https://docs.expo.dev/)
+
 [Tutorial de instalação do nvm no linux](https://www.freecodecamp.org/portuguese/news/como-instalar-o-nodejs-no-ubuntu-e-atualizar-o-npm-para-a-versao-mais-recente/)
