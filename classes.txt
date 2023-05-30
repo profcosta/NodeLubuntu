@@ -1,1 +1,126 @@
-Classes para CSS
+//Classes para CSS
+
+import { StyleSheet } from "react-native";
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#ADD8E6',
+        alignItems: 'center',
+        justifyContent: 'center',
+        paddingTop:70,
+    },
+    boxTitle: {
+        alignItems:"center",
+        justifyContent:"center",
+        padding:10,
+        marginBottom:20, 
+     },
+     textTitle:{
+         color:"#191970",
+         fontSize:30,
+         fontWeight:"bold",
+     },
+     formContext: {
+        width:"100%",
+        height:"100%",
+        justifyContent:"flex-start",
+        bottom:0,
+        backgroundColor:"#B0C4DE",
+        alignItems:"center",
+        paddingTop:30,
+        borderTopLeftRadius:20,
+        borderTopRightRadius:20,
+    },
+    form:{
+        width:"100%",
+        height:"auto",
+        padding:2,
+    },
+    label:{
+        color:"#000000",
+        fontSize:20,
+        fontWeight:"bold",
+        marginLeft:"5%",
+        marginBottom:10,
+    },
+    input:{
+        width:"93%",
+        borderRadius:15,
+        backgroundColor:"#f6f6f6",
+        height:40,
+        paddingLeft:15,
+        marginLeft:"3%",
+    },
+    errorMessagem:{
+        fontSize:12,
+        color:"#ff0043",
+        fontWeight:"bold",
+        marginLeft:"8%",
+        marginBottom:10,
+        marginTop:5,
+    },
+    button:{
+        borderRadius:50,
+        alignItems:"center",
+        justifyContent:"center",
+        width:"93%",
+        backgroundColor:"#0000CD",
+        padding:15,
+        marginLeft:"3%",
+        marginTop:5,
+        marginBottom:10,
+    },
+    textButton:{
+        fontSize:20,
+        fontWeight:"bold",
+        color:"#ffffff",
+    },
+
+    resultContext: {
+        width:"93%",
+        justifyContent:"center",
+        marginLeft:"3%",
+        marginTop:10,
+        backgroundColor:"#ADD8E6",
+        alignItems:"center",
+        borderRadius:20,
+    },
+
+    titleResult:{
+        fontSize:22,
+        color:"#191970",
+        fontWeight:"bold",    
+        marginTop:10,
+        marginBottom:0,
+    },
+    
+    resultElement: {
+        width:"100%",
+        flex: 1,
+        justifyContent:"center",
+        alignItems:"flex-start",
+        marginBottom:15,
+        marginLeft:"10%"
+    },
+
+    textResult:{
+        fontSize:16,
+        fontWeight:"bold",
+        color:"#000"
+    },
+
+    result:{
+        fontSize:16,
+        color:"#191970"
+    },
+
+    lineStyle:{
+        width:"93%",
+        borderWidth: 0.5,
+        borderColor:"#191970",
+        margin:4,
+        marginBottom:20
+   }
+});
+export default styles;
